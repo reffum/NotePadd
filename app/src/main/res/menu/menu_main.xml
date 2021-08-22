@@ -3,8 +3,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.reffum.notepadd.MainActivity">
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/action_new"
+        android:orderInCategory="99"
+        android:title="New" />
+    <item
+        android:id="@+id/action_open"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
+        android:title="@string/action_open" />
+    <item
+        android:id="@+id/action_save"
+        android:orderInCategory="101"
+        android:title="@string/action_save" />
+    <item
+        android:id="@+id/action_save_as"
+        android:orderInCategory="102"
+        android:title="Save As..." />
+    <item
+        android:id="@+id/action_bug_report"
+        android:orderInCategory="102"
+        android:title="@string/bug_report"
         app:showAsAction="never" />
+
+
 </menu>
